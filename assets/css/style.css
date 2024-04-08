@@ -52,7 +52,7 @@
   
   body {
     margin: 0;
-    font-family: "Mukta", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -7432,6 +7432,7 @@
     font-size: 18px;
     font-weight: 600;
     text-align: center;
+    padding-top: 10px;
     line-height: 30px; }
   
   aside .profile-designation {
@@ -7480,7 +7481,7 @@
       aside .widget.card .widget-title {
         color: #0067f6; }
   
-  .btn-share {
+  .btn-home {
     padding: 5px 25px;
     border: 0;
     border-radius: 15px;
@@ -7488,13 +7489,16 @@
     font-weight: 500;
     line-height: 1.67;
     height: 30px; }
-    .btn-share:hover, .btn-share:focus, .btn-share:active {
+    .btn-home:hover, .btn-home:focus, .btn-home:active {
       background-color: #ffffff;
       border: 0; }
-    .btn-share:focus {
+    .btn-home:focus {
       box-shadow: none; }
-    .btn-share:hover {
+    .btn-home:hover {
       box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2); }
+    .btn-home a {
+      text-decoration: none;
+    }
   
   .btn-img {
     height: 10px;
@@ -7539,7 +7543,7 @@
     margin-right: 0px;
     transition: width 0.6s ease-in-out; }
     .collapsible-nav.show {
-      width: 365px; }
+      width: 275px; }
     @media (max-width: 991px) {
       .collapsible-nav {
         position: fixed;
@@ -7647,7 +7651,8 @@
       line-height: 1.538;
       font-weight: 300; }
     main .intro-section {
-      margin-bottom: 29px; }
+      margin-bottom: 29px;
+      text-align: justify; }
       main .intro-section .section-title {
         margin-bottom: 1rem; }
     main .resume-section {
@@ -7751,19 +7756,20 @@
       main .testimonial-carousel .carousel-item {
         text-align: center; }
       main .testimonial-carousel .testimonial-content {
-        font-size: 10px;
+        font-size: 13px;
         font-weight: 300;
-        max-width: 280px;
+        max-width: 350px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 5px; }
       main .testimonial-carousel .testimonial-img {
-        width: 20px;
-        height: 20px;
+        max-width: none;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         margin-bottom: 3px; }
       main .testimonial-carousel .testimonial-name {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
         line-height: 1.2;
         color: #0067f6; }
